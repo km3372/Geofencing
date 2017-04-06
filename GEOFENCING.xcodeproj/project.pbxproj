@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		8D9303F61E9670A7000651C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9303F51E9670A7000651C0 /* AppDelegate.swift */; };
-		8D9303F81E9670A7000651C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9303F71E9670A7000651C0 /* ViewController.swift */; };
-		8D9303FB1E9670A7000651C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9303F91E9670A7000651C0 /* Main.storyboard */; };
 		8D9303FD1E9670A7000651C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9303FC1E9670A7000651C0 /* Assets.xcassets */; };
 		8D9304001E9670A7000651C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9303FE1E9670A7000651C0 /* LaunchScreen.storyboard */; };
+		8D9304081E9670F8000651C0 /* Coke.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9304071E9670F8000651C0 /* Coke.png */; };
+		8D93040A1E967180000651C0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9304091E967180000651C0 /* MapViewController.swift */; };
+		8D93040C1E967199000651C0 /* CokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D93040B1E967199000651C0 /* CokeAnnotation.swift */; };
+		8D93040E1E9671C9000651C0 /* CokeAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D93040D1E9671C9000651C0 /* CokeAnnotationView.swift */; };
+		8D9304101E967532000651C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D93040F1E967532000651C0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D9303F21E9670A7000651C0 /* GEOFENCING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GEOFENCING.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9303F51E9670A7000651C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D9303F71E9670A7000651C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D9303FA1E9670A7000651C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D9303FC1E9670A7000651C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D9303FF1E9670A7000651C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D9304011E9670A7000651C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D9304071E9670F8000651C0 /* Coke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coke.png; sourceTree = "<group>"; };
+		8D9304091E967180000651C0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8D93040B1E967199000651C0 /* CokeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CokeAnnotation.swift; sourceTree = "<group>"; };
+		8D93040D1E9671C9000651C0 /* CokeAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CokeAnnotationView.swift; sourceTree = "<group>"; };
+		8D93040F1E967532000651C0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 			children = (
 				8D9303F41E9670A7000651C0 /* GEOFENCING */,
 				8D9303F31E9670A7000651C0 /* Products */,
+				8D9304071E9670F8000651C0 /* Coke.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				8D9303F51E9670A7000651C0 /* AppDelegate.swift */,
-				8D9303F71E9670A7000651C0 /* ViewController.swift */,
-				8D9303F91E9670A7000651C0 /* Main.storyboard */,
+				8D93040F1E967532000651C0 /* Main.storyboard */,
+				8D93040B1E967199000651C0 /* CokeAnnotation.swift */,
+				8D93040D1E9671C9000651C0 /* CokeAnnotationView.swift */,
+				8D9304091E967180000651C0 /* MapViewController.swift */,
 				8D9303FC1E9670A7000651C0 /* Assets.xcassets */,
 				8D9303FE1E9670A7000651C0 /* LaunchScreen.storyboard */,
 				8D9304011E9670A7000651C0 /* Info.plist */,
@@ -125,8 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9304001E9670A7000651C0 /* LaunchScreen.storyboard in Resources */,
+				8D9304081E9670F8000651C0 /* Coke.png in Resources */,
 				8D9303FD1E9670A7000651C0 /* Assets.xcassets in Resources */,
-				8D9303FB1E9670A7000651C0 /* Main.storyboard in Resources */,
+				8D9304101E967532000651C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D9303F81E9670A7000651C0 /* ViewController.swift in Sources */,
+				8D93040C1E967199000651C0 /* CokeAnnotation.swift in Sources */,
+				8D93040E1E9671C9000651C0 /* CokeAnnotationView.swift in Sources */,
+				8D93040A1E967180000651C0 /* MapViewController.swift in Sources */,
 				8D9303F61E9670A7000651C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,14 +157,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8D9303F91E9670A7000651C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D9303FA1E9670A7000651C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D9303FE1E9670A7000651C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
